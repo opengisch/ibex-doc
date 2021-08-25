@@ -1,0 +1,24 @@
+# Project information
+site_name: IBEX
+site_description: >-
+  This site contains documentation of IBEX (COntabilità ANalitica Sentieri)
+
+# Repository
+repo_name: opengisch/ibex
+repo_url: https://github.com/opengisch/ibex
+edit_uri: https://github.com/opengisch/ibex-doc/tree/master/docs/
+
+# Theme configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+
+# Page tree
+nav:
+  - Home: index.md
+  - Manuale utente: user_manual.md
+
+markdown_extensions:
+  - attr_list
+  - def_list
