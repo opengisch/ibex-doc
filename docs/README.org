@@ -1,0 +1,3 @@
+This repository contains the documentation of Ibex. The documentation
+is published online using mkdocs on gh-pages, at this url
+https://opengisch.github.io/ibex-doc/
