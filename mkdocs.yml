@@ -19,6 +19,7 @@ copyright: Copyright &copy; 2021 OPENGIS.ch
 theme:
   name: material
   custom_dir: theme_overrides/
+  language: it
   features:
     - navigation.tabs
   logo: assets/images/ibex.png
@@ -39,10 +40,12 @@ theme:
 nav:
   - Home: index.md
   - Manuale utente: user_manual.md
+  - Documentazione tecnica: reference.md
 
 markdown_extensions:
   - attr_list
   - def_list
+  - admonition
 
 # Css
 extra_css:
