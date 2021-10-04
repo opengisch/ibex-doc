@@ -1,1 +1,4 @@
-# Documentazione IBEX
+---
+template: home.html
+title: Documentazione Ibex
+---

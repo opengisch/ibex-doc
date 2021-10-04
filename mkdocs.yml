@@ -1,18 +1,39 @@
 # Project information
 site_name: IBEX
+site_url: https://opengisch.github.io/ibex-doc/
+site_author: OPENGIS.ch
 site_description: >-
-  This site contains documentation of IBEX (COntabilità ANalitica Sentieri)
+  Questo sito contiene la documentazione di Ibex, strumento per la
+  contabilità degli interventi sulla rete dei sentieri di Ticino
+  Sentieri e delle Organizzazioni Turistiche Regionali.
 
 # Repository
 repo_name: opengisch/ibex
 repo_url: https://github.com/opengisch/ibex
 edit_uri: https://github.com/opengisch/ibex-doc/tree/master/docs/
 
+# Copyright
+copyright: Copyright &copy; 2021 OPENGIS.ch
+
 # Theme configuration
 theme:
   name: material
+  custom_dir: theme_overrides/
   features:
     - navigation.tabs
+  logo: assets/images/ibex.png
+  favicon: assets/images/favicon.ico
+  palette:
+    - scheme: default
+      primary: green
+      toggle:
+        icon: octicons/sun-24
+        name: Switch to light mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: octicons/moon-24
+        name: Switch to dark mode
 
 # Page tree
 nav:
@@ -22,3 +43,24 @@ nav:
 markdown_extensions:
   - attr_list
   - def_list
+
+# Css
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/jquery.fancybox.min.css
+
+# Extra javascript
+extra_javascript:
+  - javascript/jquery.min.js
+  - javascript/jquery.fancybox.min.js
+
+extra:
+  # Remove "Made with Material for MkDocs" from footer
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/opengisch
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/opengisch
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/opengisch/
